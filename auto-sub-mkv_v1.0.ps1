@@ -1,4 +1,4 @@
-# Hisae - 01/2026 - beta
+# 01/2026 - beta
 # Script interactif pour gérer les pistes MKV avec installation automatique de MKVToolNix
 # Déposer le script dans le répertoire à mettre à jour
 # Naviguer en powershell à cet emplacement et lancer le script
@@ -214,4 +214,5 @@ Write-Host "`nRésumé :" -ForegroundColor Cyan
 Write-Host "  ✓ Fichiers modifiés avec succès : $successCount" -ForegroundColor Green
 if ($errorCount -gt 0) {
     Write-Host "  ✗ Fichiers en erreur : $errorCount" -ForegroundColor Red
+
 }
